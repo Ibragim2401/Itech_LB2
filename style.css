@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Caveat-SemiBold';
+    src: url('Fonts/Caveat-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Nosifer';
+        src: url('Fonts/Nosifer-Regular.ttf');
+}
+@font-face {
+    font-family: 'Dosis-Light';
+    src: url('Fonts/Dosis-Light.ttf');
+}
+@font-face {
+    font-family: 'HindSiliguri';
+    src: url('Fonts/HindSiliguri-Regular.ttf');
+}
+
+body {
+    background-color:bisque;
+    font-family: 'HindSiliguri', sans-serif;
+}
+
+.symbol {
+    position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 90px;
+        height: 60px;
+}
+
+
+
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.item_square {
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    margin: 10px;
+}
+
+.item_rect {
+    width: 500px;
+    height: 800px;
+    background-color: antiquewhite;
+    margin: 10px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.text{
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+.photo img {
+    max-width: 100%;
+}
+
+.shop {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    margin-left: 160px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#visit{
+    margin: 50px 25px;
+    font-size: 2.5rem;
+    color: transparent;
+    background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(102, 0, 128));
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin: 20px 0;
+    font-size: 2rem;
+    font-family: 'Dosis-Light', sans-serif;
+}
+
+.custom-marker {
+    width: 70px;
+    height: 50px;
+    background: url('custom-marker.png') no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-right:10px;
+    vertical-align: middle;
+}
+
+.container_footer {
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: burlywood;
+}
+
+.image {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.text_footer {
+    width: 80%;
+    font-size: 3rem;
+}
